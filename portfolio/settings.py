@@ -24,15 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4c&ohas)ic#7r*1!2_l40ww$exf9wmk4$rtxhqkc4k4_&)r=az'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    'odhiambo-jeff.me',
-    'www.odhiambo-jeff.me',
-    'container-app-rjuzafyl4sy6y.jollyocean-5654cb34.westus2.azurecontainerapps.io'
-    ]
+    '*',
+]
 
 
 # Application definition
