@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'odhiambo-jeff.me',
     'www.odhiambo-jeff.me',
-    'sjef.azurewebsites.net',
+    'container-app-rjuzafyl4sy6y.jollyocean-5654cb34.westus2.azurecontainerapps.io'
     ]
 
 
